@@ -1,0 +1,5 @@
+services:
+  capstone01:
+    image: devops-build
+    ports:
+    - "80:80"
