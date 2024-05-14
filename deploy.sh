@@ -5,7 +5,7 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
         docker tag devops-build preethivinil/dev:project
         docker push preethivinil/dev:project
 
-if [[ $GIT_BRANCH == "origin/master" ]]; then
+elif [[ $GIT_BRANCH == "origin/master" ]]; then
 
         docker tag devops-build preethivinil/prod:project01
         docker push preethivinil/prod:project01
